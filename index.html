@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Auth Interface</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blockchain Auth Interface</h1>
+    
+    <div class="form-container">
+      <h2>Register</h2>
+      <form id="register-form">
+        <div class="input-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="register-email" placeholder="Email" required>
+        </div>
+        <button type="submit"><i class="fas fa-user-plus"></i> Register</button>
+      </form>
+    </div>
+    
+    <div class="form-container">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div class="input-group">
+          <i class="fas fa-key"></i>
+          <input type="text" id="login-publicKey" placeholder="Public Key" required>
+        </div>
+        <div class="input-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" id="login-privateKey" placeholder="Private Key" required>
+        </div>
+        <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+      </form>
+    </div>
+    
+    <div class="form-container">
+      <div class="verify-container">
+          <h2>Verify</h2>
+        <button id="verify-button"><i class="fas fa-check"></i> Verify Identity</button>
+        <p id="verify-result"></p>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
