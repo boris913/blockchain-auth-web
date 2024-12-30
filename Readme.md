@@ -11,7 +11,7 @@ Cette application web permet aux utilisateurs de s'inscrire, de se connecter et 
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/blockchain-auth-web.git
+   git clone https://git@github.com:boris913/blockchain-auth-web.git
 
 2. Accédez au répertoire du projet :
    cd blockchain-auth-web
