@@ -43,3 +43,5 @@ Fonctionnalités
 
     Font Awesome : Pour les icônes.
     Web3.js : Pour la génération de signatures.
+
+![Page d'accueil](assets/img/blochainauth_src.png)
